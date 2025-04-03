@@ -1,5 +1,5 @@
 
-import { ArrowUp, GitHub, Heart, Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowUp, Github, Heart, Linkedin, Mail, Twitter } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -32,7 +32,7 @@ export function Footer() {
               className="text-foreground/70 hover:text-primary transition-colors"
               aria-label="GitHub"
             >
-              <GitHub size={20} />
+              <Github size={20} />
             </a>
             <a 
               href="https://linkedin.com" 

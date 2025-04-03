@@ -1,5 +1,5 @@
 
-import { ArrowDown, GitHub, Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -38,7 +38,7 @@ export function Hero() {
             className="text-foreground/70 hover:text-primary transition-colors"
             aria-label="GitHub"
           >
-            <GitHub size={24} />
+            <Github size={24} />
           </a>
           <a 
             href="https://linkedin.com" 
