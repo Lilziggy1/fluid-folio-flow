@@ -1,3 +1,4 @@
+
 # Welcome to your Lovable project
 
 ## Project info
@@ -36,19 +37,16 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deploying to GitHub Pages
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is configured to be deployed to GitHub Pages. Follow these steps:
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Push your code to a GitHub repository
+2. Enable GitHub Pages in your repository settings:
+   - Go to Settings > Pages
+   - Select "GitHub Actions" as the source
+3. The workflow will automatically build and deploy your site whenever you push to the main branch
+4. Your site will be available at https://yourusername.github.io/your-repo-name/
 
 ## What technologies are used for this project?
 
